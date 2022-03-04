@@ -1,0 +1,38 @@
+.titre {
+    color: red
+    transform: translate(100px) rotate(20deg);
+}
+
+
+.case1 {
+    font-size: 42px;
+    -webkit-transform: rotate(20deg);
+    -webkit-transform-origin: 0 -250px;
+  
+    transform: rotate(-4deg);
+    transform-origin: 0 -250px;
+}
+.case2 {
+    font-size: 42px;
+    -webkit-transform: rotate(20deg);
+    -webkit-transform-origin: 0 -250px;
+  
+    transform: translate(50px) rotate(10deg);
+    transform-origin: 0 -250px;
+}
+.case3 {
+    font-size: 42px;
+    -webkit-transform: translateY(3in) rotate(0deg);
+    -webkit-transform-origin: 0 250px;
+  
+    transform: translateY(1in) rotate(0deg);
+    transform-origin: 0 250px;
+}
+.case4 {
+    font-size: 42px;
+    -webkit-transform: rotate(20deg);
+    -webkit-transform-origin: 0 -250px;
+  
+    transform: translateY(2in) rotate(-4deg);
+    transform-origin: 0 -250px;
+}
